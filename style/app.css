@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  font-family: 'MozTT', sans-serif;
+}
+
+body section{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#light {
+  background: black;
+  opacity: .1;
+}
+
+#mask {
+  background-size: 100%;
+  background-position: center;
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+}
+
+#mask.noFlame {
+  background-image: url(images/noFlame.png);
+  background-repeat: no-repeat;
+}
+
+#battery {
+  position: absolute;
+  width: 6rem;
+  height: 3rem;
+  top: 2rem;
+  left: 2rem;
+}
+
+#battery.charging {
+  background-image: url(images/battery/charging.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#battery.empty {
+  background-image: url(images/battery/empty.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#battery.complete {
+  background-image: url(images/battery/complete.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#battery.first {
+  background-image: url(images/battery/first.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#battery.second {
+  background-image: url(images/battery/second.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#battery.third {
+  background-image: url(images/battery/third.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+a.footer-logo {
+  background: white;
+  position: fixed;
+  top: 0;
+  right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  background-image: url(images/60.png);
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  background-position: center;
+  text-decoration: none;
+  border-radius: 0 0 1rem 1rem;
+}

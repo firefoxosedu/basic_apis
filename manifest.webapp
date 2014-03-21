@@ -1,0 +1,21 @@
+{
+  "name": "Candle",
+  "description": "Candle",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Borja Salguero",
+    "url": "https://github.com/borjasalguero"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Candle",
+      "description": "Ambient light & Battery API Demo."
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/style/icons/demo.png",
+    "60": "/style/icons/60/demo.png"
+  },
+  "orientation": "portrait-primary"
+}
